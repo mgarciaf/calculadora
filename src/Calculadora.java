@@ -31,7 +31,7 @@ public class Calculadora {
                     System.out.println("Suma: " + suma);
                     break;
                 case 2:
-                    int resta = new Resta().operacion(numero1, numero2);
+                    int resta = new Resta().operacion(numero1, numero2, 1);
                     System.out.println("Resta: " + resta);
                     break;
                 case 3:
