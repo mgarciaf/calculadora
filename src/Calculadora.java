@@ -27,7 +27,7 @@ public class Calculadora {
 
                 case 1:
 
-                    int suma = new Suma().operacion(numero1, numero2);
+                    int suma = new Suma().operacion(numero1, numero2, 1);
                     System.out.println("Suma: " + suma);
                     break;
                 case 2:
