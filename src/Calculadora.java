@@ -3,6 +3,12 @@ import java.util.Scanner;
 public class Calculadora {
 
     public static void main(String[] args) {
+        System.out.println("¿Qué operación desea realizar Suma(1) | Resta(2) | Multiplicación (3) | División (4) ?:");
+        seleccionarOpciones();
+    }
+
+
+    public static void seleccionarOpciones() {
         int opcion = 0;
         int numero1 = 0;
         int numero2 = 0;
@@ -12,7 +18,6 @@ public class Calculadora {
         Scanner scanner2 = new Scanner(System.in);
 
         Scanner scannerString = new Scanner(System.in);
-        System.out.println("¿Qué operación desea realizar Suma(1) | Resta(2) | Multiplicación (3) | División (4) ?:");
 
         while(true) {
             mostrarMenu();
@@ -49,9 +54,7 @@ public class Calculadora {
                 System.exit(0);
             }
         }
-
     }
-
 
     public static void mostrarMenu() {
         System.out.println("**************************************************************");
