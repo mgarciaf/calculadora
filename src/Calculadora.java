@@ -29,7 +29,7 @@ public class Calculadora {
                     System.out.println("Suma: " + new Suma().operacion(numero1, numero2));
                     break;
                 case 2:
-                    System.out.println("Resta: " + new Resta().operacion(numero1, numero2));
+                    System.out.println("Resta: " + new Resta().operacion(numero1, numero2, 1));
                     break;
                 case 3:
                     System.out.println("Multiplicación: " + new Multiplicacion().operacion(numero1, numero2));
