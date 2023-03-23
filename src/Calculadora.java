@@ -26,21 +26,16 @@ public class Calculadora {
             switch (opcion) {
 
                 case 1:
-
-                    int suma = new Suma().operacion(numero1, numero2);
-                    System.out.println("Suma: " + suma);
+                    System.out.println("Suma: " + new Suma().operacion(numero1, numero2));
                     break;
                 case 2:
-                    int resta = new Resta().operacion(numero1, numero2);
-                    System.out.println("Resta: " + resta);
+                    System.out.println("Resta: " + new Resta().operacion(numero1, numero2));
                     break;
                 case 3:
-                    int mult = new Multiplicacion().operacion(numero1, numero2);
-                    System.out.println("Multiplicación: " + mult);
+                    System.out.println("Multiplicación: " + new Multiplicacion().operacion(numero1, numero2));
                     break;
                 case 4:
-                    int division = new Division().operacion(numero1, numero2);
-                    System.out.println("División: " + division);
+                    System.out.println("División: " +  new Division().operacion(numero1, numero2));
                     break;
                 default:
                     break;
