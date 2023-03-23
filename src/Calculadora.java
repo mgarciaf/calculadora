@@ -26,7 +26,7 @@ public class Calculadora {
             switch (opcion) {
 
                 case 1:
-                    System.out.println("Suma: " + new Suma().operacion(numero1, numero2));
+                    System.out.println("Suma: " + new Suma().operacion(numero1, numero2, 1));
                     break;
                 case 2:
                     System.out.println("Resta: " + new Resta().operacion(numero1, numero2, 1));
